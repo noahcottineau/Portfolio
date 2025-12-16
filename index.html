@@ -10,7 +10,6 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Portfolio</div>
             <ul class="nav-links">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#apropos">À propos</a></li>
@@ -24,7 +23,8 @@
     <!-- Hero Section -->
     <section id="accueil" class="hero">
         <div class="container">
-            <h1>Bonjour, je suis <span class="highlight">COTTINEAU Noah</span></h1>
+            <h1>Bienvenue sur mon portfolio </h1>
+            <h2 class="highlight">COTTINEAU Noah</h2>
             <p class="subtitle">Étudiant à <b>CESI Saint-Nazaire</b> </p>
             <a href="#projets" class="btn">Voir mes projets</a>
         </div>
@@ -36,11 +36,11 @@
             <h2>À propos de moi</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="votre-photo.jpg" alt="Votre Nom">
+                    <img src="votre-photo.jpg">
                 </div>
                 <div class="about-text">
                     <p>Actuellement étudiant en 2ème année d'ingénieur en informatique à CESI Saint-Nazaire, je me passionne pour le développement Web et l'intelligence artificielle avec un intêret pour le génie logiciel et la data science. J'ai pu tout au long de mon cursus developper mes compétences à travers des projets académique et personnels.</p>
-                    <p>Mon objectif est de transformer des idées créatives en solutions digitales performantes qui répondent aux besoins réels des utilisateurs.</p>
+                    <p>Mon objectif est de réalisées des projets digitales performants et esthétiques qui répondent aux attente du client.</p>
                 </div>
             </div>
         </div>
@@ -52,19 +52,12 @@
             <h2>Mes Compétences</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <h3>Frontend</h3>
+                    <h3>Langages</h3>
                     <ul>
                         <li>HTML5 / CSS3</li>
-                        <li>JavaScript / React</li>
-                        <li>Responsive Design</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js / Express</li>
-                        <li>Python / Django</li>
-                        <li>Bases de données SQL</li>
+                        <li>Python</li>
+                        <li>C++ / C</li>
+                        <li>SQL</li>
                     </ul>
                 </div>
                 <div class="skill-card">
@@ -72,7 +65,8 @@
                     <ul>
                         <li>Git / GitHub</li>
                         <li>VS Code</li>
-                        <li>Figma / Adobe XD</li>
+                        <li>Overleaf</li>
+                        <li>Pack Office</li>
                     </ul>
                 </div>
             </div>
@@ -85,36 +79,41 @@
             <h2>Mes Projets</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image"></div>
+                    <div class="project-image">
+                        <img src="Station météo.jpg">
+                    </div>
                     <div class="project-info">
-                        <h3>Projet E-commerce</h3>
-                        <p>Une plateforme de vente en ligne moderne avec panier d'achat et paiement sécurisé.</p>
+                        <h3>Projet Station Météo</h3>
+                        <p>Conception d'un système de surveillance météorologique avec capteurs sur une carte Arduino.</p>
                         <div class="project-tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
+                            <span>Langage C</span>
+                            <span>GitHub</span>
+                            <span>Overleaf</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Jeu de la vie.jpg">
+                    </div>
+                    <div class="project-info">
+                        <h3>Projet Jeu de la Vie</h3>
+                        <p>Réalisation du jeu de la vie de Conway en C++.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>GitHub</span>
+                            <span>Overleaf</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-image"></div>
                     <div class="project-info">
-                        <h3>Application Mobile</h3>
-                        <p>Une application de gestion de tâches avec synchronisation cloud.</p>
-                        <div class="project-tags">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <h3>Site Vitrine</h3>
-                        <p>Site web responsive pour une entreprise locale avec animations fluides.</p>
+                        <h3>Portfolio</h3>
+                        <p>Site web personnel présentant mes projets et compétences.</p>
                         <div class="project-tags">
                             <span>HTML/CSS</span>
-                            <span>JavaScript</span>
+                            <span>GitHub</span>
                         </div>
                     </div>
                 </div>
@@ -126,23 +125,32 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Me Contacter</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Nom" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" rows="5" required></textarea>
-                <button type="submit" class="btn">Envoyer</button>
-            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:noah.cottineau@viacesi.fr">noah.cottineau@viacesi.fr</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <a href="tel:+33123456789">+33 6 85 95 87 46</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+            <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
             <div class="social-links">
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Twitter</a>
+                <a href="https://www.linkedin.com/in/noah-cottineau-ba2325387/">LinkedIn</a>
+                <a href="https://github.com/noahcottineau">GitHub</a>
             </div>
         </div>
     </footer>
